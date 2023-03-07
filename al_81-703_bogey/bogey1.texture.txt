@@ -1,0 +1,2 @@
+Primary=bogey1.jpg
+Tile=st

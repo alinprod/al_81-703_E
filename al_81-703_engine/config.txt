@@ -1,0 +1,195 @@
+﻿
+kind                                    "engine"
+
+flowsize
+{
+  trainbrakepipe                        170000
+  epreservoirpipe                       0.1
+  no3pipe                               0.1
+  no4pipe                               0.1
+  auxreservoirvent                      0.1
+  auxreservoir_no3                      0.1
+  auxreservoir_trainbrakepipe           0.1
+  autobrakecylindervent                 1
+  auxreservoir_autobrakecylinder        1
+  equaliser_mainreservoir               0.06
+  equaliservent                         0.06
+  equaliserventhandleoff                0
+  equaliserventemergency                0.1
+  no3pipevent                           1.5
+  no3pipe_mainreservoir                 0.1
+  compressor                            2
+  trainbrakepipe_reservoir              1
+  trainbrakepipevent                    0.06
+  no3pipe_autobrakecylinder             2
+  epreservoirpipe_autobrakecylinder     0.1
+  mainreservoir_ep                      0.1
+  vacuumbrakepipe                       0.1
+  vacuumbrakepipereleasevent            0.1
+  vacuumbrakepipevent                   0.1
+  vacuumbrakereservoir_vacuumbrakepipe  0.1
+  vacuumbrakecylinder_vacuumbrakepipe   0.1
+  highspeedexhauster_vacuumbrakepipe    0.1
+}
+
+volume
+{
+  scale                                 1
+  trainbrakepipe                        0.029
+  epreservoirpipe                       0.029
+  no3pipe                               0.029
+  no4pipe                               0.029
+  auxreservoir                          0.1
+  autobrakecylinder                     0.042
+  vacuumbrakepipe                       0
+  vacuumbrakereservoir                  0
+  vacuumbrakecylinder                   0
+  mainreservoir                         0.425
+  equaliser                             0.0095
+  independantbrakecylinder              0.014
+}
+
+pressure
+{
+  scale                                 1
+  compressor                            0.00852
+  mainreservoir                         0.00852
+  highspeedexhauster                    0
+  brakepipe                             0.006025
+  brakeinitial                          0.005326
+  brakefull                             0.004028
+  indbrakefull                          0.002032
+  trainbrakepipe_start                  0.004727
+  epreservoirpipe_start                 0
+  no3pipe_start                         0
+  no4pipe_start                         0
+  auxreservoir_start                    0.004727
+  autobrakecylinder_start               0.003629
+  vacuumbrakepipe_start                 0
+  vacuumbrakereservoir_start            0
+  vacuumbrakecylinder_start             0
+  mainreservoir_start                   0.00852
+  equaliser_start                       0.004727
+  independantbrakecylinder_start        0
+}
+
+mass
+{
+  scale                                 1
+  fuel                                  "6.2156e+006"
+}
+
+motor
+{
+  resistance                            0.1
+  adhesion                              0.1
+  maxvoltage                            825
+  maxspeed                              25
+  brakeratio                            45000
+  max-accel                             10000
+  max-decel                             40000
+  throttle-notches                      8
+  axle-count                            2
+  surface-area                          80
+  full-throttle-speed                   6.7056
+  moving-friction-coefficient           0.06
+  air-drag-coefficient                  0.0002
+}
+
+throttle-power
+{
+  0
+  {
+    0                                   0
+  }
+  
+  1
+  {
+    0                                   40
+    0.05                                8
+    0.2                                 7
+    2.77                                3
+    5.5                                 1
+  }
+  
+  2
+  {
+    0                                   100
+    0.3                                 42
+    1.1                                 42
+    1.4                                 33
+    2.8                                 13
+    6                                   8
+  }
+  
+  3
+  {
+    0                                   100
+    0.3                                 42
+    4.17                                42
+    5                                   18
+    6                                   13
+    10                                  6
+    25                                  2
+  }
+  
+  4
+  {
+    0                                   100
+    2.0                                 42
+    4.3                                 42
+    4.4                                 42
+    7.8                                 42
+    8.3                                 42
+    10                                  42
+    13                                  14
+    15                                  9
+    17.7                                8
+    22.2                                7
+    25                                  5
+  }
+  
+  5
+  {
+    0                                   100
+    2.3                                 42
+    4.4                                 42
+    2.0                                 42
+    7.8                                 42
+    8.3                                 42
+    13.8                                42
+    15.7                                40
+    19.5                                21
+    22.2                                16
+    25                                  12
+  }
+  
+  6
+  {
+    0                                   40
+    25                                  40
+  }
+}
+description                             "81-703_engine_config"
+trainz-build                            3.2
+category-class                          "RC"
+username                                "81-703 engine"
+author                                  "Yehor Avramenko"
+organisation                            "YauzaGang"
+contact-email                           ""
+license                                 ""
+kuid                                    <kuid:1029291:0002>
+
+thumbnails
+{
+  0
+  {
+    image                               "thumbnail.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}

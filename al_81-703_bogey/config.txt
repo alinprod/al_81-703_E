@@ -1,0 +1,51 @@
+﻿
+kuid                                    <kuid:1029291:0001>
+kind                                    "bogey"
+animdist                                11
+description                             "703_E"
+category-class                          "ZB"
+trainz-build                            3.2
+direct-drive                            0
+
+obsolete-table
+{
+}
+
+mesh-table
+{
+  default
+  {
+    mesh                                "UFbogey.IM"
+    auto-create                         1
+  }
+}
+
+track-sound
+{
+  1
+  {
+    track-sound                         <kuid:477489:1176>
+    bogey                               <kuid:1029291:0001>
+    priority                            10000
+  }
+}
+username                                "Bogey 703"
+author                                  "Yehor Avramenko"
+contact-email                           "-"
+contact-website                         
+license                                 "GNU 3.0"
+
+thumbnails
+{
+  0
+  {
+    image                               "thumbnail.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+  0                                     <kuid:477489:1176>
+}
